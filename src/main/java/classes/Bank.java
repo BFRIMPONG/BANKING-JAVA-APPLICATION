@@ -75,8 +75,8 @@ public class Bank implements IBank  {
                     System.out.println("Transactions ");
                     ArrayList<Double> transactions = branchCustomer.get(i).getTransactions();
 
-                    for (int k = 0; k < transactions.size(); k++) {
-                        System.out.println("["+ (k+1) +"]" + " Amount " + transactions.get(k));
+                    for (int j = 0; j < transactions.size(); j++) {
+                        System.out.println("["+ (j+1) +"]" + " Amount " + transactions.get(j));
                     }
                 }
             }
