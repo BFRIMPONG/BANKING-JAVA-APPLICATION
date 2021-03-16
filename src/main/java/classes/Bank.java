@@ -48,8 +48,8 @@ public class Bank implements IBank  {
         return false;
     }
 
-    @Override
-    public Branch findBranch(String branchName) {
+
+    private Branch findBranch(String branchName) {
 
         for (Branch branch : branches) {
             if (branch.getName().equals(branchName)) {

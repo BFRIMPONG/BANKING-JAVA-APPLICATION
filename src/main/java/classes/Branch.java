@@ -45,8 +45,8 @@ public class Branch implements IBranch {
         return false;
     }
 
-    @Override
-    public Customer findCustomer(String customerName) {
+
+    private Customer findCustomer(String customerName) {
 
         for(Customer customer: customers){
             if(customer.getName().equals(customerName)){
