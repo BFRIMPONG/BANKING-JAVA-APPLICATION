@@ -1,4 +1,4 @@
-package interfaces;
+package org.frimpong.interfaces;
 
 import java.util.ArrayList;
 

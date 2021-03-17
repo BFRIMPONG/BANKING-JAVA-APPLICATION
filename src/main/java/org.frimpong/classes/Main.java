@@ -1,4 +1,4 @@
-package classes;
+package org.frimpong.classes;
 
 public class Main {
 

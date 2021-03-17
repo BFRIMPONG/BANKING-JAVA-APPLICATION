@@ -1,6 +1,6 @@
-package classes;
+package org.frimpong.classes;
 
-import interfaces.ICustomer;
+import org.frimpong.interfaces.ICustomer;
 
 import java.util.ArrayList;
 

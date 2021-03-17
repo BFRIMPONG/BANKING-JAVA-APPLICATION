@@ -1,6 +1,6 @@
-package interfaces;
+package org.frimpong.interfaces;
 
-import classes.Branch;
+import org.frimpong.classes.Branch;
 
 public interface IBank {
 

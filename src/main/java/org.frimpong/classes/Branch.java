@@ -1,6 +1,6 @@
-package classes;
+package org.frimpong.classes;
 
-import interfaces.IBranch;
+import org.frimpong.interfaces.IBranch;
 
 import java.util.ArrayList;
 

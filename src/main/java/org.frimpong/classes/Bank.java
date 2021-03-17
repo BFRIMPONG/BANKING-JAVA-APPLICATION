@@ -1,6 +1,6 @@
-package classes;
+package org.frimpong.classes;
 
-import interfaces.IBank;
+import org.frimpong.interfaces.IBank;
 
 import java.util.ArrayList;
 
