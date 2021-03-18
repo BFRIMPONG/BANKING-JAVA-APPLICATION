@@ -1,0 +1,7 @@
+com\frimpong\interfaces\IBranch.class
+com\frimpong\classes\Branch.class
+com\frimpong\classes\Main.class
+com\frimpong\classes\Bank.class
+com\frimpong\interfaces\ICustomer.class
+com\frimpong\classes\Customer.class
+com\frimpong\interfaces\IBank.class
