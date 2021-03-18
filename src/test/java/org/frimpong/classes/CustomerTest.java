@@ -34,6 +34,4 @@ public class CustomerTest {
         //   test
         assertEquals(2, customer.getTransactions().size());
     }
-
-
 }
