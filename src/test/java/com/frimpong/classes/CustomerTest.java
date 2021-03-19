@@ -16,13 +16,13 @@ public class CustomerTest {
 
     @Test
     public void getName() {
-        //       test result should return the Daniel
+        //       test result should return Daniel because he is a customer of the bank
         assertEquals("Daniel", customer.getName());
     }
 
     @Test
     public void getTransactions() {
-        //
+        //       test to check if the Daniel initial deposit is the same as expected value
         assertEquals(250.06,(double) customer.getTransactions().get(0), 0.00);
     }
 
@@ -31,7 +31,7 @@ public class CustomerTest {
         // Add a transaction
         customer.addTransaction(200);
 
-        //   test
+        //   test to check if the new transaction has been added to the old one
         assertEquals(2, customer.getTransactions().size());
     }
 }
